@@ -3,9 +3,11 @@ import React, { Component } from 'react';
 class Resume extends Component {
   render() {
     return (
-      <h1>Hello world!</h1>
+      <div class="resume">
+        HELLO WORLD
+      </div>
     );
   }
 }
 
-export default App;
+export default Resume;
