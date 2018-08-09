@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../style/Summary.css';
+
 class Summary extends Component {
   render() {
     return (

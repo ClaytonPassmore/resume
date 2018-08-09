@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import '../style/Experience.css';
+
 class Experience extends Component {
   render() {
     return (
       <div className="experience">
         <div className="experience-header">
-          <div className="experience-header-title">{this.props.title} at {this.props.name}</div>
+          <h3 className="experience-header-title">{this.props.title} at {this.props.name}</h3>
           <div className="experience-header-location">{this.props.location}</div>
         </div>
 

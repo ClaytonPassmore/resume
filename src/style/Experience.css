@@ -1,0 +1,17 @@
+.experience {
+  padding-bottom: 10px;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-header-title {
+  margin: 0;
+}
+
+.experience-header-location {
+  align-self: center;
+  padding-left: 1rem;
+}

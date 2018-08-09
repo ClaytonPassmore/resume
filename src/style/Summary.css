@@ -1,0 +1,9 @@
+.summary-list-item .summary-list {
+  column-count: 2;
+  padding-left: 40px;
+  list-style-position: inside;
+}
+
+.summary-list {
+  padding-left: 20px;
+}
