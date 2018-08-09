@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Summary extends Component {
   render() {
     return (
-      <div class="summary">
-        <h2 class="section-title">{this.props.title}</h2>
+      <div className="summary">
+        <h2 className="section-title">{this.props.title}</h2>
         {this.render_points(this.props.points)}
       </div>
     );
@@ -15,13 +15,17 @@ class Summary extends Component {
 
     for (var i in points) {
       if (typeof points[i] === "string") {
-        rendered_points.push(<li>{points[i]}</li>);
+        rendered_points.push(
+          <li className="summary-list-item" key={i}>
+            {points[i]}
+          </li>
+        );
         continue;
       }
 
       // Recursively render sublists.
       rendered_points.push(
-        <li class="summary-list-item">
+        <li className="summary-list-item" key={i}>
           {points[i].title}
           {this.render_points(points[i].points)}
         </li>
@@ -29,7 +33,7 @@ class Summary extends Component {
     }
 
     return (
-      <ul class="summary-list">
+      <ul className="summary-list">
         {rendered_points}
       </ul>
     );

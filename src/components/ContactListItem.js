@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
+import '../style/ContactListItem.css';
+
 class ContactListItem extends Component {
   render() {
     return (
-      <div class="contact-list-item">
-        <a class="contact-list-item-link" href={this.props.href} target="_blank">
+      <div className="contact-list-item">
+        <a className="contact-list-item-link" href={this.props.href} target="_blank">
           {this.props.children}
         </a>
       </div>

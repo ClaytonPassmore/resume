@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 class Experience extends Component {
   render() {
     return (
-      <div class="experience">
-        <div class="experience-header">
-          <div class="experience-header-title">{this.props.title} at {this.props.name}</div>
-          <div class="experience-header-location">{this.props.location}</div>
+      <div className="experience">
+        <div className="experience-header">
+          <div className="experience-header-title">{this.props.title} at {this.props.name}</div>
+          <div className="experience-header-location">{this.props.location}</div>
         </div>
 
-        <p class="experience-duration">{this.props.duration}</p>
-        <p class="experience-summary">{this.props.summary}</p>
+        <p className="experience-duration">{this.props.duration}</p>
+        <p className="experience-summary">{this.props.summary}</p>
 
         {this.render_points()}
       </div>
@@ -22,14 +22,14 @@ class Experience extends Component {
 
     for (var i in this.props.points) {
       points.push(
-        <li class="experience-list-item">
+        <li className="experience-list-item" key={i}>
           {this.props.points[i]}
         </li>
       );
     }
 
     return (
-      <ul class="experience-list">
+      <ul className="experience-list">
         {points}
       </ul>
     );

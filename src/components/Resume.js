@@ -3,12 +3,15 @@ import Divider from './Divider';
 import Header from './Header';
 import Section from './Section';
 import Summary from './Summary';
+
 import bio from '../bio';
+
+import '../style/Resume.css';
 
 class Resume extends Component {
   render() {
     return (
-      <div class="resume">
+      <div className="resume">
         <Header title_text={bio.name}
           title_href="/"
           email={bio.email}
@@ -29,7 +32,8 @@ class Resume extends Component {
 
     for (var i in bio.sections) {
       sections.push(
-        <Section title={bio.sections[i].title}
+        <Section key={i}
+          title={bio.sections[i].title}
           items={bio.sections[i].items}/>
       );
     }

@@ -5,9 +5,9 @@ import Experience from './Experience';
 class Section extends Component {
   render() {
     return (
-      <div class="section">
+      <div className="section">
         <Divider/>
-        <h2 class="section-title">{this.props.title}</h2>
+        <h2 className="section-title">{this.props.title}</h2>
         {this.render_items()}
       </div>
     );
@@ -18,7 +18,7 @@ class Section extends Component {
 
     for (var i in this.props.items) {
       items.push(
-        <Experience
+        <Experience key={i}
           name={this.props.items[i].name}
           title={this.props.items[i].title}
           location={this.props.items[i].location}

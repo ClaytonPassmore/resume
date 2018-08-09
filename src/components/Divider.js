@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Divider extends Component {
   render() {
     return (
-      <hr class="divider"/>
+      <hr className="divider"/>
     );
   }
 }

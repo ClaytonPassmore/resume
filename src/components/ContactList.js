@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import '../style/ContactList.css';
+
 class ContactList extends Component {
   render() {
     return (
-      <div class="contact-list">
+      <div className="contact-list">
         {this.props.children}
       </div>
     );
