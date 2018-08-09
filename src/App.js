@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Resume from './containers/Resume';
+import Resume from './components/Resume';
 
 class App extends Component {
   render() {
