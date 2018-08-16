@@ -6,7 +6,7 @@ class ContactListItem extends Component {
   render() {
     return (
       <div className="contact-list-item">
-        <ion-icon size="large" name={this.props.ion_icon}></ion-icon>
+        <ion-icon name={this.props.ion_icon}></ion-icon>
         <a className="contact-list-item-link" href={this.props.href} target="_blank">
           {this.props.children}
         </a>
