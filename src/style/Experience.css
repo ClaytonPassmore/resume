@@ -5,13 +5,14 @@
 .experience-header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .experience-header-title {
   margin: 0;
+  padding-right: 0.75rem;
 }
 
 .experience-header-location {
   align-self: center;
-  padding-left: 1rem;
 }
