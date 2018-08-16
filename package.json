@@ -2,7 +2,7 @@
   "name": "proto-personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://claytonpassmore.github.io",
+  "homepage": "https://claytonpassmore.github.io/resume",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
