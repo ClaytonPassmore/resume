@@ -13,13 +13,13 @@ class Header extends Component {
         </a>
 
         <ContactList>
-          <ContactListItem href={"mailto:" + this.props.email}>
+          <ContactListItem href={"mailto:" + this.props.email} ion_icon="mail">
             {this.props.email}
           </ContactListItem>
-          <ContactListItem href={"phone:" + this.props.phone}>
+          <ContactListItem href={"phone:" + this.props.phone} ion_icon="call">
             {this.props.phone}
           </ContactListItem>
-          <ContactListItem href={"https://" + this.props.website}>
+          <ContactListItem href={"https://" + this.props.website} ion_icon="link">
             {this.props.website}
           </ContactListItem>
         </ContactList>
