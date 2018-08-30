@@ -8,6 +8,7 @@
         "title": "Summary of Qualifications",
         "points": [
             "Proven ability to learn and apply new concepts quickly",
+            "Familiarity with technologies such as PostgreSQL, Kafka, and Redis",
             {
                 "title": "Experience with several programming languages, including:",
                 "points": [
@@ -27,7 +28,8 @@
                     "title": "Software Engineer",
                     "summary": "Worked as a full stack developer with a focus on backend infrastructure.",
                     "points": [
-                        "Developed frontend and backend features in Ember.js and Ruby on Rails, respectively",
+                        "Responsible for opening up platform to 3rd party developers",
+                        "Developed features in Ember.js and Ruby on Rails",
                         "Wrote design specifications and code for major infrastructure changes"
                     ],
                     "duration": "May 2017 - Present",
