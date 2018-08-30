@@ -16,7 +16,7 @@ class Resume extends Component {
           title_href="/"
           email={bio.email}
           phone={bio.phone}
-          website={bio.website}/>
+          github_url={bio.github_url}/>
 
         <Divider/>
 

@@ -19,8 +19,8 @@ class Header extends Component {
           <ContactListItem href={"phone:" + this.props.phone} ion_icon="call">
             {this.props.phone}
           </ContactListItem>
-          <ContactListItem href={"https://" + this.props.website} ion_icon="link">
-            {this.props.website}
+          <ContactListItem href={"https://" + this.props.github_url} ion_icon="logo-github">
+            {this.props.github_url}
           </ContactListItem>
         </ContactList>
       </div>

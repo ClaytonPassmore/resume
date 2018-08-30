@@ -1,3 +1,3 @@
-# ClaytonPassmore.github.io
+# Resume
 
-Personal web page written in React.
+Resume written in React.
