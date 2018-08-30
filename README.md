@@ -1,6 +1,6 @@
 # Resume
 
-A simple resume written in React.
+A simple resume written in React. See it in action [here](https://ClaytonPassmore.github.io/resume).
 
 ## Installation
 
