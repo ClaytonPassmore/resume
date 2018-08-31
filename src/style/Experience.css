@@ -16,3 +16,9 @@
 .experience-header-location {
   align-self: center;
 }
+
+@media print {
+  .experience {
+    break-inside: avoid;
+  }
+}

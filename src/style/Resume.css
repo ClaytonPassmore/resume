@@ -3,3 +3,9 @@
   font-family: monospace;
   display: inline-block;
 }
+
+@media print {
+  .resume {
+    display: block;
+  }
+}
