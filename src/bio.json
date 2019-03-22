@@ -77,48 +77,6 @@
                     ],
                     "duration": "September 2015 - December 2015",
                     "website": "https://www.nvidia.com"
-                },
-                {
-                    "name": "Bloomberg L.P.",
-                    "latlng": [40.761782, -73.967928],
-                    "location": "New York, NY",
-                    "title": "Software Engineer",
-                    "summary": "Built widgets for two different visualization projects.",
-                    "points": [
-                        "Developed widgets for IPython using D3, BackBone, and JQuery",
-                        "Built a tool for performing geo-spatial analytics on top of CartoDB and OpenLayers",
-                        "Researched spatial query speeds using PostgreSQL and PostGIS"
-                    ],
-                    "duration": "January 2015 - April 2015",
-                    "website": "https://www.bloomberg.com"
-                },
-                {
-                    "name": "Kaleidescape Inc.",
-                    "latlng": [43.506219, -80.546525],
-                    "location": "Waterloo, ON",
-                    "title": "Software Engineer",
-                    "summary": "Developed monitoring software that tracked products as they were assembled.",
-                    "points": [
-                        "Low-level C++ development on an embedded Linux OS",
-                        "Managed the entire code base for an in-house web utility",
-                        "Quickly learned JavaScript, PHP, and MySQL"
-                    ],
-                    "duration": "May 2014 - August 2014",
-                    "website": "https://www.kaleidescape.com"
-                },
-                {
-                    "name": "QNX Software Systems Inc.",
-                    "latlng": [45.344007, -75.909601],
-                    "location": "Kanata, ON",
-                    "title": "Software Developer in Test",
-                    "summary": "Developed test cases for low-level OS functionality.",
-                    "points": [
-                        "Developed test cases in C",
-                        "Created a utility for analyzing regression tests in Python",
-                        "Participated in a week-long course on the QNX Neutrino RTOS"
-                    ],
-                    "duration": "September 2013 - December 2014",
-                    "website": "https://www.qnx.com"
                 }
             ]
         },
