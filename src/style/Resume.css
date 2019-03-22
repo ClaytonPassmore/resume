@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .resume {
   padding: 5px 20px;
-  font-family: monospace;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
+  font-size: 0.9rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
 }
 
 @media print {
