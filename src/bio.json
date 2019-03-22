@@ -28,6 +28,7 @@
                     "title": "Software Engineer",
                     "summary": "Worked as a full stack developer with a focus on backend infrastructure.",
                     "points": [
+                        "Implemented a referral fraud detection system",
                         "Responsible for opening up platform to 3rd party developers",
                         "Developed features in Ember.js and Ruby on Rails",
                         "Wrote design specifications and code for major infrastructure changes"
