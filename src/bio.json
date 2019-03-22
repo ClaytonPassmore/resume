@@ -12,7 +12,7 @@
             {
                 "title": "Experience with several programming languages, including:",
                 "points": [
-                    "JavaScript", "Python", "Ruby", "HTML + CSS", "C++", "C", "SQL", "Bash"
+                    "Ruby", "Python", "JavaScript", "HTML + CSS", "C++", "C", "SQL", "Bash"
                 ]
             }
         ]
@@ -44,7 +44,7 @@
                     "summary": "Worked as a member of the MAPS data visualization team.",
                     "points": [
                         "Developed infrastructure for searching within the MAPS application",
-                        "Elasticsearch, Node, Python"
+                        "Worked with Elasticsearch, Node, and Python"
                     ],
                     "duration": "September 2016 - December 2016",
                     "website": "https://www.bloomberg.com"
