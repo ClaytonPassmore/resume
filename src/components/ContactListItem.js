@@ -7,7 +7,11 @@ class ContactListItem extends Component {
     return (
       <div className="contact-list-item">
         <ion-icon name={this.props.ion_icon}></ion-icon>
-        <a className="contact-list-item-link" href={this.props.href} target="_blank">
+        <a
+          className="contact-list-item-link"
+          href={this.props.href}
+          target="_blank"
+          rel="noopener noreferrer">
           {this.props.children}
         </a>
       </div>
