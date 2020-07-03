@@ -8,11 +8,11 @@
         "title": "Summary of Qualifications",
         "points": [
             "Proven ability to learn and apply new concepts quickly",
-            "Familiarity with technologies such as PostgreSQL, Kafka, and Redis",
+            "Experience creating production applications from the ground up",
             {
-                "title": "Experience with several programming languages, including:",
+                "title": "Proficient with the following languages and technologies:",
                 "points": [
-                    "Ruby", "Python", "JavaScript", "HTML + CSS", "C++", "C", "SQL", "Bash"
+                    "Ruby on Rails", "Python", "JavaScript", "HTML + CSS", "Redis", "SQL"
                 ]
             }
         ]
@@ -21,6 +21,20 @@
         {
             "title": "Employment Opportunities",
             "items": [
+                {
+                  "name": "Junip Inc.",
+                  "latlng": null,
+                  "location": "Kitchener, ON",
+                  "title": "Co-founder &amp; CTO",
+                  "summary": "Built an app that allows online stores to collect, moderate, and leverage customer reviews.",
+                  "points": [
+                    "Solely designed, developed and deployed all backend infrastructure",
+                    "Maintained Ruby on Rails, Postgres, and NGINX servers on Heroku and AWS",
+                    "Collaborated with consumers, merchants and peers to make informed product decisions"
+                  ],
+                  "duration": "Sept 2019 - Present",
+                  "website": "https://junip.co"
+                },
                 {
                     "name": "Smile.io",
                     "latlng": [43.451541, -80.494999],
@@ -33,7 +47,7 @@
                         "Developed features in Ember.js and Ruby on Rails",
                         "Wrote design specifications and code for major infrastructure changes"
                     ],
-                    "duration": "May 2017 - Present",
+                    "duration": "May 2017 - Sept 2019",
                     "website": "https://www.smile.io"
                 },
                 {
