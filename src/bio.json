@@ -54,7 +54,7 @@
                     "name": "Bloomberg L.P.",
                     "latlng": [40.761782, -73.967928],
                     "location": "New York, NY",
-                    "title": "Software Engineer",
+                    "title": "Software Intern",
                     "summary": "Worked as a member of the MAPS data visualization team.",
                     "points": [
                         "Developed infrastructure for searching within the MAPS application",
@@ -67,7 +67,7 @@
                     "name": "Kik Interactive Inc.",
                     "latlng": [43.485805, -80.528552],
                     "location": "Waterloo, ON",
-                    "title": "Software Engineer",
+                    "title": "Software Intern",
                     "summary": "Responsible for developing and maintaining the Kik Points bot.",
                     "points": [
                         "Created a mechanism for programmatically sending promotional offers to users",
@@ -81,7 +81,7 @@
                     "name": "NVIDIA Corp.",
                     "latlng": [37.371013, -121.964037],
                     "location": "Santa Clara, CA",
-                    "title": "Software Engineer",
+                    "title": "Software Intern",
                     "summary": "Built automated testing infrastructure for the Tegra camera team.",
                     "points": [
                         "Developed a fully automated electro-mechanical system",
