@@ -2,7 +2,7 @@
 
 A simple resume written in React. See it in action [here](https://ClaytonPassmore.github.io/resume).
 
-## Installation
+## Install
 
 Assuming you have npm, it's as easy as this:
 
@@ -10,7 +10,7 @@ Assuming you have npm, it's as easy as this:
 $ npm install
 ```
 
-## Running
+## Run
 
 Start the server:
 
@@ -18,7 +18,7 @@ Start the server:
 $ npm start
 ```
 
-## Deploying
+## Deploy
 
 Use the GitHub pages package to deploy:
 
