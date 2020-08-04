@@ -1,11 +1,6 @@
 .header-link {
+  text-align: center;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-}
-
-@media print {
-  .header-link {
-    text-align: center;
-  }
 }

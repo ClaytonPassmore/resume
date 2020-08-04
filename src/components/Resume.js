@@ -11,18 +11,20 @@ import '../style/Resume.css';
 class Resume extends Component {
   render() {
     return (
-      <div className="resume">
-        <Header title_text={bio.name}
-          title_href="/"
-          email={bio.email}
-          phone={bio.phone}
-          github_url={bio.github_url}/>
+      <div className="resume-wrapper">
+        <div className="resume">
+          <Header title_text={bio.name}
+            title_href="/"
+            email={bio.email}
+            phone={bio.phone}
+            github_url={bio.github_url}/>
 
-        <Divider/>
+          <Divider/>
 
-        <Summary title={bio.summary.title} points={bio.summary.points}/>
+          <Summary title={bio.summary.title} points={bio.summary.points}/>
 
-        {this.render_sections()}
+          {this.render_sections()}
+        </div>
       </div>
     );
   }
