@@ -32,8 +32,23 @@
                     "Maintained Ruby on Rails, Postgres, and NGINX servers on Heroku and AWS",
                     "Collaborated with consumers, merchants and peers to make informed product decisions"
                   ],
-                  "duration": "Sept 2019 - Present",
+                  "duration": "September 2019 - Present",
                   "website": "https://junip.co"
+                },
+                {
+                    "name": "Smile.io",
+                    "latlng": [43.451541, -80.494999],
+                    "location": "Kitchener, ON",
+                    "title": "Team Lead",
+                    "summary": "Managed a team of 6 while continuing to make individual contributions.",
+                    "points": [
+                        "Planned weekly sprints",
+                        "Regularly conducted interviews",
+                        "Mentored teammates and checked in with 1-on-1 meetings",
+                        "Designed software architecture for complex features"
+                    ],
+                    "duration": "February 2019 - September 2019",
+                    "website": "https://www.smile.io"
                 },
                 {
                     "name": "Smile.io",
@@ -47,7 +62,7 @@
                         "Developed features in Ember.js and Ruby on Rails",
                         "Wrote design specifications and code for major infrastructure changes"
                     ],
-                    "duration": "May 2017 - Sept 2019",
+                    "duration": "May 2017 - January 2019",
                     "website": "https://www.smile.io"
                 },
                 {
@@ -64,7 +79,7 @@
                     "website": "https://www.bloomberg.com"
                 },
                 {
-                    "name": "Kik Interactive Inc.",
+                    "name": "Kik Interactive",
                     "latlng": [43.485805, -80.528552],
                     "location": "Waterloo, ON",
                     "title": "Software Intern",
