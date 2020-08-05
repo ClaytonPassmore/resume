@@ -5,6 +5,7 @@
   "homepage": "https://claytonpassmore.github.io/resume",
   "dependencies": {
     "react": "^16.13.1",
+    "react-bootstrap-icons": "^1.0.3-alpha5",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1"
   },

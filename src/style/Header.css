@@ -4,3 +4,12 @@
   color: inherit;
   cursor: pointer;
 }
+
+.icon {
+  vertical-align: sub;
+  padding-right: 5px;
+}
+
+.title {
+  font-size: 2rem;
+}
