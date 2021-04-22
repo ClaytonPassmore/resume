@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Resume</title>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="heading">
+        <h1>
+          <a href="https://claytonpassmore.github.io">Clayton Passmore</a>
+        </h1>
+        <p>ctpassmore at gmail dot com</p>
+      </div>
+
+      <hr/>
+
+      <h2>Summary</h2>
+
+      <ul class="summary-list">
+        <li>Proven abililty to learn and apply new concepts quickly</li>
+        <li>Experience creating production applications from the ground up</li>
+        <li>
+          Proficient with the following languages and technologies:
+
+          <ul class="technology-list">
+            <li>Ruby on Rails</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML + CSS</li>
+            <li>Postgres</li>
+            <li>Redis</li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr/>
+
+      <h2>Employment</h2>
+
+      <div class="flex-between">
+        <h3>
+          <a href="https://junip.co">Junip Inc.</a>
+        </h3>
+        <p class="location">Kitchener, Ontario</p>
+      </div>
+
+      <div class="position">
+        <p class="title">Co-founder &amp; CTO (Sep 2019 - Present)</p>
+        <p class="description">
+          Built a SaaS app that allows online stores to collect, moderate, and leverage customer reviews.
+        </p>
+
+        <ul>
+          <li>Solely designed, developed and deployed all backend infrastructure</li>
+          <li>Maintained Ruby on Rails, Postgres, and NGINX servers on Heroku and AWS</li>
+          <li>Collaborated with consumers, merchants and peers to make informed product decisions</li>
+        </ul>
+      </div>
+
+      <div class="flex-between">
+        <h3>
+          <a href="https://smile.io">Smile.io</a>
+        </h3>
+        <p class="location">Kitchener, Ontario</p>
+      </div>
+      <div class="position multi-position">
+        <ul class="title"><li>Team Lead (Feb 2019 - Sep 2019)</li></ul>
+        <p class="description">
+          Managed a team of 6 while continuing to make individual contributions.
+        </p>
+
+        <ul>
+          <li>Planned weekly sprints and mentored teammates</li>
+          <li>Designed software architecture for complex features</li>
+          <li>Recruited and hired new team members</li>
+        </ul>
+
+        <ul class="title"><li>Software Engineer (May 2017 - Jan 2019)</li></ul>
+        <p class="description">
+          Worked as a full stack developer with a focus on backend infrastructure.
+        </p>
+        <ul>
+          <li>Implemented a referral fraud detection system</li>
+          <li>Responsible for opening up platform to 3rd party developers</li>
+          <li>Developed features in Ember.js and Ruby on Rails</li>
+          <li>Wrote design specifications and code for major infrastructure changes</li>
+        </ul>
+      </div>
+
+      <hr/>
+
+      <h2>Education</h2>
+
+      <div class="flex-between">
+        <h3>
+          <a href="https://uwaterloo.ca">University of Waterloo</a>
+        </h3>
+        <p class="location">Waterloo, Ontario</p>
+      </div>
+      <p class="title">Bachelor of Computer Science (Sep 2012 - Apr 2017)</p>
+      <p class="description">
+        Obtained a BCS with honours while participating in the co-operative education program.
+      </p>
+      <ul>
+        <li>Completed 6 different internships at NVIDIA, Bloomberg, Kik, and more</li>
+        <li>Studied networking, algorithms, AI, DB, OS, privacy and security, software architecture</li>
+        <li>Academic experience with C, C++, Python, Racket, and JavaScript</li>
+      </ul>
+    </div>
+
+    <style>
+      body {
+        font-family: monospace;
+        line-height: 1.4em;
+        display: flex;
+        justify-content: center;
+      }
+
+      .technology-list {
+        columns: 2;
+      }
+
+      .heading {
+        text-align: center;
+      }
+
+      .resume {
+        max-width: 60em;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      hr {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+
+      ul {
+        padding-left: 1.5em;
+      }
+
+      .position {
+        margin-bottom: 2em;
+      }
+
+      .multi-position {
+        padding-left: 1em;
+      }
+
+      ul.title {
+        padding-left: 0;
+      }
+
+      .flex-between {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+
+      .flex-between p, .flex-between h3, .flex-between ul {
+        margin: 0;
+      }
+    </style>
+  </body>
+</html>
