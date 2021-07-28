@@ -164,19 +164,24 @@
         margin: 0;
       }
 
-      .position-title-block {
-        padding-left: 0.5em;
-        border-left: 0.3em solid black;
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
-      }
-
       .section {
         display: flex;
       }
 
       .section-heading {
         text-align: right;
+      }
+
+      @media screen and (max-width: 550px) {
+        .resume {
+          display: block;
+        }
+
+        .section-heading {
+          text-align: left;
+          margin-top: 2em;
+          margin-bottom: 2em;
+        }
       }
     </style>
   </body>
